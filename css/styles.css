@@ -1,0 +1,150 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Helvetica, sans-serif;
+}
+
+body {
+  background-image: linear-gradient(
+    to right,
+    #f395b1 0%,
+    #b19af8 37%,
+    #60a2ff 100%
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.container {
+  background-color: #f4f4f4;
+  border-radius: 20px;
+  width: 500px;
+  height: 750px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.calculadora-imc {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.calculadora-imc button {
+  padding: 25px;
+  display: flex;
+  height: 40px;
+  width: 324px;
+  justify-content: center;
+  align-items: center;
+  background-color: #e85b81;
+  color: #fdfdfd;
+  border: none;
+  font-size: 17px;
+  font-weight: bold;
+  border-radius: 10px;
+  margin: 15px auto;
+  cursor: pointer;
+  transition: 0.4s;
+}
+.calculadora-imc button:hover {
+  opacity: 0.8;
+}
+.peso,
+.altura {
+  display: flex;
+  flex-direction: column;
+  color: #000;
+  font-weight: bold;
+  margin: 10px auto;
+}
+
+.peso input,
+.altura input {
+  padding: 20px 10px;
+  margin: 5px 0;
+  width: 300px;
+  border-radius: 10px;
+  border: none;
+}
+input:focus {
+  border: 2px solid #e85b81;
+  outline: none;
+}
+.info-imc {
+  display: flex;
+  margin: 20px auto;
+  padding: 25px 0;
+  color: #000;
+  border-bottom: 1px solid #e85b81;
+  border-top: 1px solid #e85b81;
+  width: 400px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  line-height: 25px;
+}
+.info-imc p {
+  padding: 10px;
+  font-weight: bold;
+}
+.clasificacao-imc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ebd6db;
+  border: none;
+}
+.titulo-imc,
+.info-magreza,
+.info-normal,
+.info-sobrepeso,
+.info-obesidade,
+.obesidade-grave {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+}
+.info-magreza,
+.info-sobrepeso,
+.obesidade-grave {
+  background-color: #fdfdfd;
+}
+
+.info-magreza p,
+.info-normal p,
+.info-sobrepeso p,
+.info-obesidade p,
+.obesidade-grave p {
+  margin: 10px;
+  flex: 1;
+  font-size: 12px;
+}
+.titulo-imc h4 {
+  margin: 10px;
+  flex: 1;
+  font-size: 15px;
+}
+
+.escondido {
+  display: none;
+}
+.baixo {
+  background-color: green;
+}
+.normal {
+  background-color: rgb(171, 182, 17);
+}
+.sobrepeso {
+  background-color: rgb(255, 136, 0);
+}
+.obesidade {
+  background-color: rgb(255, 0, 0);
+}
+.obesidade1 {
+  background-color: rgb(255, 0, 0);
+}
