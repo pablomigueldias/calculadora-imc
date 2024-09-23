@@ -1,6 +1,6 @@
 # Calculadora de IMC
 
-Bem-vindo à **Calculadora de IMC**! Este é um projeto de treino desenvolvido por mim, onde utilizei JavaScript para calcular o Índice de Massa Corporal (IMC) com base nos dados fornecidos pelo usuário, como peso e altura.
+Apresento a **Calculadora de IMC**, um projeto desenvolvido para praticar e aprimorar meus conhecimentos em JavaScript. Com esta aplicação, você pode calcular facilmente o Índice de Massa Corporal (IMC) fornecendo apenas o seu peso e altura.
 
 ## 🚀 Funcionalidades
 
@@ -27,7 +27,9 @@ Você pode acessar a calculadora diretamente pelo link abaixo: https://calculado
 
 ## 📝 Melhorias Futuras
 
-Estilização aprimorada para exibir os resultados de maneira mais apresentável.
+Estilização aprimorada para exibir os resultados de maneira mais clara e apresentável.
 
-Adicionar categorias para os diferentes níveis de IMC (baixo peso, peso normal, sobrepeso, obesidade).
+Implementação de uma tela mais visual e informativa, destacando as categorias de IMC (baixo peso, peso normal, sobrepeso, obesidade) de forma visualmente atraente.
+
+Adicionar animações ou gráficos para tornar a experiência do usuário mais interativa.
 
