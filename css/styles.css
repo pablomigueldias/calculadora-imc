@@ -89,6 +89,7 @@ input:focus {
 .info-imc p {
   padding: 10px;
   font-weight: bold;
+  font-size: 15px;
 }
 .clasificacao-imc {
   display: flex;

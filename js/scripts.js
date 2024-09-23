@@ -110,7 +110,7 @@ btnCalcular.addEventListener("click", (e) => {
       infoImc.style.backgroundColor = "rgb(255, 0, 0)";
       infoImc.innerHTML = `Seu IMC é ${imc} e sua classificação é : ${info} !`;
       break;
-    case "Obesidade Grave":
+    case "Obesidade grave":
       infoImc.style.color = "#fff";
       infoImc.style.backgroundColor = "rgb(255, 0, 0)";
       infoImc.innerHTML = `Seu IMC é ${imc} e sua classificação é : ${info} !`;
