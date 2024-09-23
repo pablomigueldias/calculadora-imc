@@ -33,3 +33,4 @@ Implementação de uma tela mais visual e informativa, destacando as categorias 
 
 Adicionar animações ou gráficos para tornar a experiência do usuário mais interativa.
 
+Inclusão de um botão para limpar os campos e reiniciar o cálculo, facilitando novos cálculos sem precisar recarregar a página.
