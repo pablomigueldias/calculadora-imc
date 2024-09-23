@@ -93,27 +93,27 @@ btnCalcular.addEventListener("click", (e) => {
     case "Magreza":
       infoImc.style.color = "#fff";
       infoImc.style.backgroundColor = "rgb(171, 182, 17)";
-      infoImc.innerHTML = `Seu IMC é ${imc} e sua classificação é : ${info} ! <br> Procure um médico`;
+      infoImc.innerHTML = `Seu IMC é ${imc} e sua classificação é : ${info} ! `;
       break;
     case "Normal":
       infoImc.style.color = "#fff";
       infoImc.style.backgroundColor = "green";
-      infoImc.innerHTML = `Seu IMC é ${imc} e sua classificação é : ${info} ! <br> Esta tudo ok`;
+      infoImc.innerHTML = `Seu IMC é ${imc} e sua classificação é : ${info} !`;
       break;
     case "Sobrepeso":
       infoImc.style.color = "#fff";
       infoImc.style.backgroundColor = "rgb(255, 136, 0)";
-      infoImc.innerHTML = `Seu IMC é ${imc} e sua classificação é : ${info} ! <br> Fique Atento`;
+      infoImc.innerHTML = `Seu IMC é ${imc} e sua classificação é : ${info} !`;
       break;
     case "Obesidade":
       infoImc.style.color = "#fff";
       infoImc.style.backgroundColor = "rgb(255, 0, 0)";
-      infoImc.innerHTML = `Seu IMC é ${imc} e sua classificação é : ${info} ! <br> Procure um médico `;
+      infoImc.innerHTML = `Seu IMC é ${imc} e sua classificação é : ${info} !`;
       break;
     case "Obesidade Grave":
       infoImc.style.color = "#fff";
       infoImc.style.backgroundColor = "rgb(255, 0, 0)";
-      infoImc.innerHTML = `Seu IMC é ${imc} e sua classificação é : ${info} ! <br> Procure um médico`;
+      infoImc.innerHTML = `Seu IMC é ${imc} e sua classificação é : ${info} !`;
       break;
   }
 });
